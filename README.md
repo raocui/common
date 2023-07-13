@@ -1,5 +1,3 @@
-# common
-grpc 公共子模块
 第一次clone带子模块的项目
 git clone --recurse-submodules url
 
