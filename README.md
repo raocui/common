@@ -13,7 +13,11 @@ git submodule update --remote
 更新所有子模块
 git submodule foreach git submodule update
 
-如果已经克隆了项目并忘记了 ，则可以通过运行 来组合 和 步骤。为了还可以初始化、提取和签出任何嵌套子模块，可以使用万无一失的子模块。--recurse-submodules git submodule init git submodule updategit submodule update --initgit submodule update --init --recursive
+如果已经克隆了项目并忘记了 ，则可以通过运行 来组合 和 步骤。为了还可以初始化、提取和签出任何嵌套子模块，可以使用万无一失的子模块。--recurse-submodules 
+git submodule init 
+git submodule update
+git submodule update --init
+git submodule update --init --recursive
 
 
 为没有子模块的项目，添加子模块或者把子目录换成子模块
